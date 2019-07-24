@@ -170,8 +170,9 @@ h4 {
 }
 
 img {
-    width: 100%;
-    border: none;
+    width: calc(100% - 2px);
+    border: 1px solid #f5f8fc;
+    border-bottom: none;
 }
 
 ul {
